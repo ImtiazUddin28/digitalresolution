@@ -1,0 +1,5 @@
+.stroked-title::before {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: #E8E8E8;
+}

@@ -1,0 +1,89 @@
+.topNumber {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(
+    162.5deg,
+    #2fb2d0 12.07%,
+    rgba(127, 34, 245, 0.88) 90.15%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.topCon {
+  color: rgb(211, 25, 25);
+}
+
+.mainHeader {
+  /* clip-path: polygon(100% 0, 100% 80%, 0 100%, 0 0); */
+}
+
+.NavLinkA {
+  font-weight: 500;
+  /* font-size: 1vw; */
+  /* line-height: 24%;
+    letter-spacing: 0.02em; */
+  color: #ffffff;
+}
+
+.NavBtn {
+  font-weight: 600;
+  /* font-size: 16px; */
+  line-height: 24%;
+  letter-spacing: 0.02em;
+  background: linear-gradient(
+    162.5deg,
+    #2fb2d0 12.07%,
+    rgba(127, 34, 245, 0.88) 90.15%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  /* padding: 13px 16px; */
+  border-radius: 20px;
+  /* width: 144px; */
+  height: 40px;
+}
+
+.bannerHead {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 101.5%;
+
+  /* or 57px */
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+}
+
+.bannerText {
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+}
+.bannerBtnDiv {
+  background-color: #ffffff;
+  width: 200px;
+  height: 54px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bannerBtn {
+  font-weight: 600;
+  filter: drop-shadow(0px 24px 40px rgba(22, 25, 79, 0.2));
+  background: linear-gradient(
+    162.5deg,
+    #2fb2d0 12.07%,
+    rgba(127, 34, 245, 0.88) 90.15%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}

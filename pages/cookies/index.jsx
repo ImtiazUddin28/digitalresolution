@@ -4,14 +4,14 @@ import Link from 'next/link';
 
 export default function Cookies() {
   return (
-    <Layout pageTitle="Softex Solution - Cookies">
+    <Layout pageTitle="Digital Resolution - Cookies">
       <section className="py-[3.75rem]">
         <div className="container">
           <p>
-            Cookie Policy for Softex Solution
+            Cookie Policy for Digital Resolution
             <br />
             <br />
-            At Softex Solution, we respect your privacy and are committed to
+            At Digital Resolution, we respect your privacy and are committed to
             providing you with a safe and secure browsing experience. This
             Cookie Policy explains how we use cookies and similar technologies
             on our website.

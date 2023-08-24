@@ -191,12 +191,12 @@ export default function Footer() {
                 src={envelopIcon}
                 alt="Envelop icon"
               />
-              <span>info@softexsolution.com</span>
+              <span>globaldigitalresolution@gmail.com</span>
             </Link>
           </div>
         </div>
         <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-[15px] lg:gap-0 border-t py-[1.25rem]">
-          <p>Copyright © 2023 - All right reserved by Softex Solution.</p>
+          <p>Copyright © 2023 - All right reserved by Digital Resolution.</p>
           <nav className="">
             <ul className="flex gap-[24px]">
               <Link

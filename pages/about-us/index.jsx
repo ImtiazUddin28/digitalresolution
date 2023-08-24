@@ -1,31 +1,31 @@
-import { dehydrate, QueryClient } from '@tanstack/react-query'
+import { dehydrate, QueryClient } from '@tanstack/react-query';
 
-import { getOurTeam } from '@/endpoints'
+import { getOurTeam } from '@/endpoints';
 
-import OurMission from '@/components/about-us/OurMission'
-import OurVision from '@/components/about-us/OurVision'
-import PageTitle from '@/components/common/PageTitle'
-import OurTeam from '@/components/home/OurTeam'
-import Layout from '@/components/layout'
+import OurMission from '@/components/about-us/OurMission';
+import OurVision from '@/components/about-us/OurVision';
+import PageTitle from '@/components/common/PageTitle';
+import OurTeam from '@/components/home/OurTeam';
+import Layout from '@/components/layout';
 
-import backgroundImage from '@/assets/about-us-background.jpg'
-import pageTitleBackground from '@/assets/about-us-page-title-background.jpg'
+import backgroundImage from '@/assets/about-us-background.jpg';
+import pageTitleBackground from '@/assets/about-us-page-title-background.jpg';
 
 export async function getStaticProps() {
-  const queryClient = new QueryClient()
+  const queryClient = new QueryClient();
 
   await queryClient.prefetchQuery({
     queryKey: ['our_team'],
     queryFn: getOurTeam,
     staleTime: 300000
-  })
+  });
 
-  return { props: { dehydratedState: dehydrate(queryClient) } }
+  return { props: { dehydratedState: dehydrate(queryClient) } };
 }
 
 export default function AboutUs() {
   return (
-    <Layout pageTitle="Softex Solution | About Us">
+    <Layout pageTitle="Digital Resolution | About Us">
       <PageTitle
         title="Our Company"
         background={pageTitleBackground.src}
@@ -34,7 +34,7 @@ export default function AboutUs() {
         <div className="container">
           <p className="text-center text-[1.125rem]">
             Parent company Ayesha Solution Group is based out of midwest, USA.
-            Softex Solution, newly acquired company consists of a highly
+            Digital Resolution, newly acquired company consists of a highly
             skilled, self-motivated, competent team, who are engaged to provide
             the best experience to our customers with highly technologically
             advanced products. We have working experience of 5 years within the
@@ -54,5 +54,5 @@ export default function AboutUs() {
         className="w-full h-[200px] lg:h-[620px] !bg-no-repeat !bg-center !bg-cover"
       ></section>
     </Layout>
-  )
+  );
 }

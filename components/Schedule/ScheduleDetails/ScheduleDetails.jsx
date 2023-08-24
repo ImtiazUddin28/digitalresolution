@@ -1,16 +1,14 @@
-import logo from '@/assets/logo.svg'
-import clock from '@/assets/clock2.png'
-import Image from 'next/image'
-import { useContext } from 'react'
-import { ScheduleContext } from '../context/ScheduleContext'
-import Link from 'next/link'
-
+import logo from '@/assets/logo.svg';
+import clock from '@/assets/clock2.png';
+import Image from 'next/image';
+import { useContext } from 'react';
+import { ScheduleContext } from '../context/ScheduleContext';
+import Link from 'next/link';
 
 const ScheduleDetails = () => {
   const { selectedTimezone, footer, takenSchedule } =
-    useContext(ScheduleContext)
-    
-  
+    useContext(ScheduleContext);
+
   let Details = (
     <div className="mx-6">
       <p className="py-2 text-blue-600 font-bold">Agenda:</p>
@@ -18,7 +16,7 @@ const ScheduleDetails = () => {
         className="block py-1"
         href="/"
       >
-        1. Introduction of Softex Solution
+        1. Introduction of Digital Resolution
       </Link>
       <Link
         className="block py-1"
@@ -39,7 +37,7 @@ const ScheduleDetails = () => {
         4. Next actions
       </Link>
     </div>
-  )
+  );
   if (takenSchedule !== '') {
     Details = (
       <div className="mx-6">
@@ -62,7 +60,7 @@ const ScheduleDetails = () => {
           Time Zone: {selectedTimezone}
         </Link>
       </div>
-    )
+    );
   }
   return (
     <div className="border-[1px] border-b-0 rounded">
@@ -74,9 +72,9 @@ const ScheduleDetails = () => {
         />
       </div>
       <div className="mx-6">
-        <p className="text-gray-400 my-2 font-semibold">Softex Solution</p>
+        <p className="text-gray-400 my-2 font-semibold">Digital Resolution</p>
         <h1 className="font-bold text-2xl mr-16 text-blue-600">
-          Introduction Call With Softex Solution
+          Introduction Call With Digital Resolution
         </h1>
       </div>
       <div className="flex my-3">
@@ -98,7 +96,7 @@ const ScheduleDetails = () => {
         </Link>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ScheduleDetails
+export default ScheduleDetails;

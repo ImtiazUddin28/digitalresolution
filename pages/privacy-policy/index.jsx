@@ -3,9 +3,9 @@ import Layout from '@/components/layout';
 export default function PrivacyPolicy() {
   const data = [
     {
-      title: 'Privacy Policy for Softex Solution',
+      title: 'Privacy Policy for Digital Resolution',
       content:
-        'At Softex Solution, we value your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and protect your personal information when you visit our website or use our services.'
+        'At Digital Resolution, we value your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and protect your personal information when you visit our website or use our services.'
     },
     {
       title: 'Collection of Personal Information',
@@ -45,12 +45,12 @@ export default function PrivacyPolicy() {
     {
       title: 'Contact Us',
       content:
-        'If you have any questions or concerns about this Privacy Policy or our privacy practices, please contact us at info@softexsolution.com.'
+        'If you have any questions or concerns about this Privacy Policy or our privacy practices, please contact us at globaldigitalresolution@gmail.com.'
     }
   ];
 
   return (
-    <Layout pageTitle="Softex Solution - Privacy Policy">
+    <Layout pageTitle="Digital Resolution - Privacy Policy">
       <section className="py-[3.75rem]">
         <div className="container">
           <div className="flex flex-col gap-10">

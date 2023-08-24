@@ -8,7 +8,7 @@ export default function PricingSingleCard({ pack, index }) {
 
   return (
     <div className="group">
-      <div className="rounded-3xl mx-auto px-[30px] py-[35px] bg-white group-hover:bg-[#0057FF] group-hover:text-white w-full h-full border-2 border-cyan-400 duration-700">
+      <div className="rounded-3xl mx-auto px-[30px] py-[35px] bg-white group-hover:bg-[#e1520a] group-hover:text-white w-full h-full border-2 border-cyan-400 duration-700">
         <h3 className="font-semibold text-3xl text-[#554DDE] mt-8 text-center group-hover:text-white first-letter:capitalize">
           {name}
         </h3>

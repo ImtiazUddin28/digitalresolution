@@ -1,21 +1,19 @@
-import Image from 'next/image'
-import Link from 'next/link'
-import facebook from '@/assets/facebook-social.svg'
-import linkedin from '@/assets/linkedin-social.svg'
-import twitter from '@/assets/twitter-social.svg'
+import Image from 'next/image';
+import Link from 'next/link';
+import facebook from '@/assets/facebook-social.svg';
+import linkedin from '@/assets/linkedin-social.svg';
+import twitter from '@/assets/twitter-social.svg';
 
-export default function SingleTeamCard({ member}) {
+export default function SingleTeamCard({ member }) {
   const {
     full_name,
     designation,
     image,
     social_links: { facebook_link = '', twitter_link = '', linkedin_link = '' }
-  } = member
-  const img = process.env.NEXT_PUBLIC_IMAGE + '/' + image
+  } = member;
+  const img = process.env.NEXT_PUBLIC_IMAGE + '/' + image;
   return (
-    <div
-      className="relative group bg-white rounded-[12px] overflow-hidden"
-    >
+    <div className="relative group bg-white rounded-[12px] overflow-hidden">
       <div className="relative h-[245px]">
         <img
           alt="Developer"
@@ -27,7 +25,7 @@ export default function SingleTeamCard({ member}) {
             <Link
               href={facebook_link}
               target="_blank"
-              className="w-[35px] h-[35px] flex items-center justify-center bg-[#0057FF] rounded-full"
+              className="w-[35px] h-[35px] flex items-center justify-center bg-[#e1520a] rounded-full"
             >
               <Image
                 src={facebook}
@@ -37,7 +35,7 @@ export default function SingleTeamCard({ member}) {
             <Link
               href={linkedin_link}
               target="_blank"
-              className="w-[35px] h-[35px] flex items-center justify-center bg-[#0057FF] rounded-full"
+              className="w-[35px] h-[35px] flex items-center justify-center bg-[#e1520a] rounded-full"
             >
               <Image
                 src={linkedin}
@@ -47,7 +45,7 @@ export default function SingleTeamCard({ member}) {
             <Link
               href={twitter_link}
               target="_blank"
-              className="w-[35px] h-[35px] flex items-center justify-center bg-[#0057FF] rounded-full"
+              className="w-[35px] h-[35px] flex items-center justify-center bg-[#e1520a] rounded-full"
             >
               <Image
                 src={twitter}
@@ -57,7 +55,7 @@ export default function SingleTeamCard({ member}) {
           </div>
         </div>
       </div>
-      <div className="group-hover:bg-[#0057FF] group-hover:text-white text-black p-[1.5rem] text-center">
+      <div className="group-hover:bg-[#e1520a] group-hover:text-white text-black p-[1.5rem] text-center">
         <h3 className="text-[1.375rem] font-semibold mb-[0.25rem]">
           {full_name}
         </h3>
@@ -66,5 +64,5 @@ export default function SingleTeamCard({ member}) {
         </p>
       </div>
     </div>
-  )
+  );
 }

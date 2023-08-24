@@ -3,7 +3,7 @@ import Layout from '@/components/layout';
 
 const schedule = () => {
   return (
-    <Layout pageTitle="Softex Solution | Career Form">
+    <Layout pageTitle="Digital | Career Form">
       <CareerForm />
     </Layout>
   );

@@ -15,7 +15,7 @@ export default function MobileNav({ setOpen }) {
   ];
 
   return (
-    <aside className="fixed top-0 left-0 w-[300px] h-full bg-[#0057FF] z-[100]">
+    <aside className="fixed top-0 left-0 w-[300px] h-full bg-[#e1520a] z-[100]">
       <nav className="px-[1.25rem]">
         <div className="flex items-center justify-between py-[1.5rem]">
           <Link href="/">

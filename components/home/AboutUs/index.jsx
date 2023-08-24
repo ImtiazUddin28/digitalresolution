@@ -16,6 +16,7 @@ import AboutRec from '@/assets/AboutRec.png';
 import AboutCer from '@/assets/AboutCer.png';
 import playIcon from '@/assets/play-icon.png';
 
+
 export default function AboutUs() {
   const [showModal, setShowModal] = useState(false);
 

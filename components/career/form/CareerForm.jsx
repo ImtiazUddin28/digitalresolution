@@ -120,7 +120,7 @@ const CareerForm = () => {
 
           <button
             type="submit"
-            className="bg-[#0057FF] rounded-[35px] py-[13px] px-[31px] text-[16px] font-semibold text-white block"
+            className="bg-[#e1520a] rounded-[35px] py-[13px] px-[31px] text-[16px] font-semibold text-white block"
           >
             Submit
           </button>

@@ -26,7 +26,7 @@ export default function Positions() {
             {positions?.map((Position, index) => (
               <div
                 key={index}
-                className="bg-[#0057FF] p-[30px] lg:p-[40px] h-[506px] flex flex-col rounded-lg border-2"
+                className="bg-[#e1520a] p-[30px] lg:p-[40px] h-[506px] flex flex-col rounded-lg border-2"
               >
                 <h1 className="my-8 text-white shadow-xl bg-[#2F97F7] font-[500] text-[13px] w-[113px] h-[32px] flex place-content-center place-items-center rounded-[10px] first-letter:capitalize">
                   {Position.job_type}

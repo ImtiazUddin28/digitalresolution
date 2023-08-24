@@ -22,11 +22,10 @@ const CallNow = () => {
   ];
 
   return (
-
-      <div className="fixed bottom-1/2 top-1/2 right-0 flex items-center justify-end z-[2]">
+    <div className="fixed bottom-1/2 top-1/2 right-0 flex items-center justify-end z-[2]">
       <button
         type="button"
-        className={`flex items-center justify-center  text-white bg-[#0057FF]  w-12 h-12 transition-transform duration-500 ease-in-out ${
+        className={`flex items-center justify-center  text-white bg-[#e1520a]  w-12 h-12 transition-transform duration-500 ease-in-out ${
           toggle === true ? 'translate-x-0 ' : ' translate-x-[16rem]'
         } `}
         onClick={() => setToggle(!toggle)}
@@ -40,7 +39,7 @@ const CallNow = () => {
 
       <div
         data-dial-init
-        className={`w-[16rem] h-[16.5rem] bg-[#0057FF] p-5 transition-transform duration-500 ${
+        className={`w-[16rem] h-[16.5rem] bg-[#e1520a] p-5 transition-transform duration-500 ${
           toggle === true ? 'translate-x-0 ' : 'translate-x-full'
         } `}
       >
@@ -75,8 +74,6 @@ const CallNow = () => {
         </Link>
       </div>
     </div>
-
-
   );
 };
 

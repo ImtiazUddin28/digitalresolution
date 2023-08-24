@@ -132,7 +132,7 @@ export default function ContactForm() {
               htmlFor="files"
               className="flex items-center gap-[16px] bg-[#F5F7F8] border border-[rgba(0,87,255,1)] rounded-[.5rem] p-[.375rem]"
             >
-              <div className="bg-[#0057FF] text-white font-bold px-[1rem] py-[.75rem] rounded-[.25rem]">
+              <div className="bg-[#e1520a] text-white font-bold px-[1rem] py-[.75rem] rounded-[.25rem]">
                 Choose File
               </div>
               <div className="text-[#5D647F]">
@@ -156,7 +156,7 @@ export default function ContactForm() {
           />
           <button
             type="submit"
-            className="font-bold bg-[#0057FF] text-white px-[1.5rem] py-[.75rem] rounded-full mt-[3.4375rem]"
+            className="font-bold bg-[#e1520a] text-white px-[1.5rem] py-[.75rem] rounded-full mt-[3.4375rem]"
           >
             Submit
           </button>

@@ -1,13 +1,13 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react';
 
 export default function RangeSlider({ budget, setBudget }) {
-  const [deviceWidth, setDeviceWidth] = useState(4)
+  const [deviceWidth, setDeviceWidth] = useState(4);
 
   useEffect(() => {
     if (window.innerWidth >= 960) {
-      setDeviceWidth(13)
+      setDeviceWidth(13);
     }
-  }, [deviceWidth])
+  }, [deviceWidth]);
 
   return (
     <>
@@ -16,7 +16,7 @@ export default function RangeSlider({ budget, setBudget }) {
         className="flex items-center gap-[14px] text-[1.5rem] font-bold text-black mb-[1rem]"
       >
         <span>Project Budget</span>
-        <span className="text-[#0057FF]">${budget}</span>
+        <span className="text-[#e1520a]">${budget}</span>
       </label>
       <div className="relative h-[16px] lg:h-[52px]">
         <div className="absolute top-[0.125rem] lg:top-[6.5px] left-0 w-full h-[12px] lg:h-[39px] bg-[rgba(245,247,248,1)]  rounded-l-full rounded-r-full"></div>
@@ -41,5 +41,5 @@ export default function RangeSlider({ budget, setBudget }) {
         ></div>
       </div>
     </>
-  )
+  );
 }

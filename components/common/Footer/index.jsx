@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import envelopIcon from '@/assets/envelop-icon.svg';
 import facebookIcon from '@/assets/facebook-icon.svg';
-import logo from '@/assets/footer-logo.svg';
+import logo from '@/assets/DigitalResolutionLogobg2.png';
 import telephoneIcon from '@/assets/telephone-icon.svg';
 import twitterIcon from '@/assets/twitter-icon.svg';
 import instagramIcon from '../../../assets/instagram-icon.svg';
@@ -17,7 +17,7 @@ export default function Footer() {
           <div className="max-w-[380px]">
             <Image
               src={logo}
-              alt="Softex Solution Logo"
+              alt="Digital Resolution Logo"
               className="mb-[1.5625rem]"
             />
             <p className="mb-[1.5625rem]">
@@ -41,7 +41,7 @@ export default function Footer() {
               <Link
                 href={'https://www.linkedin.com/in/mahmood-nabi/'}
                 target="_blank"
-                className="rounded-full p-1 bg-[#0057FF] w-8 flex items-center justify-center"
+                className="rounded-full p-1 bg-[#e1520a] w-8 flex items-center justify-center"
               >
                 <Image
                   src={linkedinIcon}
@@ -85,7 +85,7 @@ export default function Footer() {
             </div>
           </div>
           <div className="">
-            <h3 className="font-semibold text-[1.5rem] text-[#0057FF] mb-[1rem]">
+            <h3 className="font-semibold text-[1.5rem] text-[#e1520a] mb-[1rem]">
               Our Company
             </h3>
             <nav>
@@ -143,7 +143,7 @@ export default function Footer() {
             </nav>
           </div>
           <div className="">
-            <h3 className="font-semibold text-[1.5rem] text-[#0057FF] mb-[1rem]">
+            <h3 className="font-semibold text-[1.5rem] text-[#e1520a] mb-[1rem]">
               Quick Link
             </h3>
             <nav>
@@ -170,7 +170,7 @@ export default function Footer() {
             </nav>
           </div>
           <div className="">
-            <h3 className="font-semibold text-[1.5rem] text-[#0057FF] mb-[1rem]">
+            <h3 className="font-semibold text-[1.5rem] text-[#e1520a] mb-[1rem]">
               Contact Us
             </h3>
             <Link

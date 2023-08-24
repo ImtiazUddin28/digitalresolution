@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import logo from '@/assets/logo.svg';
+import logo from '@/assets/DigitalResolutionLogobg2.png';
 import menuIcon from '@/assets/menu-icon.svg';
 import { useRouter } from 'next/router';
 
@@ -15,7 +15,7 @@ export default function Header({ setOpen }) {
   ];
 
   return (
-    <div className="bg-[#0057FF] py-[1rem] sticky top-0 w-full z-50 ">
+    <div className="bg-[#000000] py-[1rem] sticky top-0 w-full z-50 ">
       <div className="container flex items-center justify-between">
         <Link href="/">
           <Image

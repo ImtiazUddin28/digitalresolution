@@ -46,7 +46,7 @@ export default function Gallary() {
           </div>
           <div className="flex justify-center mt-[4rem]">
             <Link
-              className="bg-[#0057FF] rounded-[35px] py-[13px] px-[31px] text-[16px] font-semibold text-white"
+              className="bg-[#e1520a] rounded-[35px] py-[13px] px-[31px] text-[16px] font-semibold text-white"
               href="https://www.linkedin.com/company/softex-solution/"
               target="_blank"
             >

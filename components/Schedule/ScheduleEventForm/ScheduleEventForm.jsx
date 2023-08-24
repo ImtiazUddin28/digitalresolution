@@ -140,7 +140,7 @@ const ScheduleEventForm = () => {
 
           <button
             type="submit"
-            className="bg-[#0057FF] rounded-[35px] py-[13px] px-[31px] text-[16px] font-semibold text-white"
+            className="bg-[#e1520a] rounded-[35px] py-[13px] px-[31px] text-[16px] font-semibold text-white"
           >
             Schedule Event
           </button>

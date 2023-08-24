@@ -26,7 +26,7 @@ export default function SingleCase({ projects }) {
             key={item.id}
             className={
               item.label.toLowerCase() === search.toLowerCase()
-                ? 'w-full lg:w-48 px-6 h-12 py-3 bg-[#0057FF] rounded-[35px] text-white text-center gap-3'
+                ? 'w-full lg:w-48 px-6 h-12 py-3 bg-[#e1520a] rounded-[35px] text-white text-center gap-3'
                 : 'block lg:inline px-10 w-full lg:w-48 lg:px-6 h-12 py-4 text-[#3C3C3C] '
             }
           >

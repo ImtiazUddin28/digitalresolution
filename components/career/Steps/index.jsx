@@ -1,4 +1,4 @@
-import Step from './Step'
+import Step from './Step';
 
 function Steps() {
   return (
@@ -9,7 +9,7 @@ function Steps() {
           <div className="flex w-full mobile:place-items-center md:flex-row mobile:flex-col mobile:space-y-6 md:space-y-0 justify-between">
             <div className="bg-white shader flex flex-col place-items-center z-50 w-[258px] h-[301px] rounded-[20px]">
               <h1 className={` text-[#0C0F18] font-[700] text-[56px] `}>01</h1>
-              <h2 className={` text-[#0057FF] font-[600] text-[32px]`}>
+              <h2 className={` text-[#e1520a] font-[600] text-[32px]`}>
                 Screening
               </h2>
               <p
@@ -21,7 +21,7 @@ function Steps() {
             </div>
             <div className="bg-white shader flex flex-col place-items-center z-50 w-[258px] h-[339px] rounded-[20px]">
               <h1 className={` text-[#0C0F18] font-[700] text-[56px] `}>02</h1>
-              <h2 className={` text-[#0057FF] font-[600] text-[32px]`}>
+              <h2 className={` text-[#e1520a] font-[600] text-[32px]`}>
                 Assignment
               </h2>
               <p
@@ -33,7 +33,7 @@ function Steps() {
             </div>
             <div className="bg-white shader flex flex-col place-items-center z-50 w-[258px] h-[301px] rounded-[20px]">
               <h1 className={` text-[#0C0F18] font-[700] text-[56px] `}>03</h1>
-              <h2 className={` text-[#0057FF] font-[600] text-[32px]`}>
+              <h2 className={` text-[#e1520a] font-[600] text-[32px]`}>
                 Interview
               </h2>
               <p
@@ -45,7 +45,7 @@ function Steps() {
             </div>
             <div className="bg-white shader flex flex-col place-items-center z-50 w-[258px] h-[339px] rounded-[20px]">
               <h1 className={` text-[#0C0F18] font-[700] text-[56px] `}>04</h1>
-              <h2 className={` text-[#0057FF] font-[600] text-[32px]`}>
+              <h2 className={` text-[#e1520a] font-[600] text-[32px]`}>
                 Hiring
               </h2>
               <p
@@ -88,4 +88,4 @@ function Steps() {
   );
 }
 
-export default Steps
+export default Steps;

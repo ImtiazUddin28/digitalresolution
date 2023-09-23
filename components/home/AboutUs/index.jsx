@@ -2,9 +2,6 @@ import { useState } from 'react';
 
 import { useRouter } from 'next/router';
 
-import { useQuery } from '@tanstack/react-query';
-
-import { getAboutUs } from '@/endpoints';
 
 import Image from 'next/image';
 
@@ -14,7 +11,7 @@ import Status from './Status';
 
 import AboutRec from '@/assets/AboutRec.png';
 import AboutCer from '@/assets/AboutCer.png';
-import playIcon from '@/assets/play-icon.png';
+
 
 
 export default function AboutUs() {
@@ -22,26 +19,7 @@ export default function AboutUs() {
 
   const { push } = useRouter();
 
-  const { data } = useQuery({
-    queryKey: ['about_us'],
-    queryFn: getAboutUs,
-    refetchOnWindowFocus: false,
-    staleTime: 300000
-  });
 
-  const {
-    data: {
-      title,
-      sub_title,
-      content,
-      total_project_text,
-      total_project,
-      team_member_text,
-      team_member,
-      rating_text,
-      rating
-    }
-  } = data;
 
   return (
     <section className="py-[3.75rem]">
@@ -49,9 +27,9 @@ export default function AboutUs() {
         <div className="grid lg:grid-cols-2 grid-cols-1 items-center lg:gap-[180px] gap-[40px]">
           <div className="lg:order-1 order-2 ">
             <SectionTitle
-              subTitle={sub_title}
-              title={title}
-              content={content}
+              subTitle="Boost your business with our expertize"
+              title="About Us"
+              content="Experience a seamless and personalized solution that streamlines processes, boosts productivity."
               align="left"
               selfContained={false}
             />
@@ -62,16 +40,16 @@ export default function AboutUs() {
             <hr className="my-[2.5rem]" />
             <div className="flex items-center justify-between text-center">
               <Status
-                title={total_project_text}
-                value={`${total_project}+`}
+                title="Projects Done"
+                value="10+"
               />
               <Status
-                title={team_member_text}
-                value={`${team_member}+`}
+                title="Team Members"
+                value="15+"
               />
               <Status
-                title={rating_text}
-                value={rating}
+                title="Average Rating"
+                value="4.9"
               />
             </div>
           </div>

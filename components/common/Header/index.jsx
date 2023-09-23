@@ -4,7 +4,7 @@ import TopBar from './TopBar'
 export default function MainNav({ setOpen }) {
   return (
     <header>
-      {/* <TopBar /> */}
+      <TopBar />
       <Header setOpen={setOpen} />
     </header>
   );

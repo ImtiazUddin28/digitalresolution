@@ -166,6 +166,12 @@ export default function Footer() {
                 >
                   Contact us
                 </Link>
+                {/* <Link
+                  href="/blof"
+                  className="hover:font-bold"
+                >
+                  Blog
+                </Link> */}
               </ul>
             </nav>
           </div>
@@ -174,14 +180,14 @@ export default function Footer() {
               Contact Us
             </h3>
             <Link
-              href="tel:+1 316-207-8882"
+              href="tel:+880 1840930768"
               className="flex items-center gap-[12px] mb-[0.75rem]"
             >
               <Image
                 src={telephoneIcon}
                 alt="Telephone icon"
               />
-              <span>+1 316-207-8882</span>
+              <span>+971 567886230</span>
             </Link>
             <Link
               href="mailto:softtech@gmail.com"

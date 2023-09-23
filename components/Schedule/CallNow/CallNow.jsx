@@ -12,12 +12,12 @@ const CallNow = () => {
     {
       id: '1',
       icon: bdIcon,
-      number: '+88 01745-744405'
+      number: '+88 01840-930768'
     },
     {
       id: '2',
       icon: usIcon,
-      number: '+1 316-207-8882'
+      number: '+971 567886230'
     }
   ];
 
